@@ -1,5 +1,5 @@
 //
-//  Clips_iOS_FW.h
+//  TestFWCalc.h
 //  Clips-iOS-FW
 //
 //  Created by Katie Kuwata on 6/6/12.
@@ -7,8 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TestFWCalc.h"
 
-@interface Clips_iOS_FW : NSObject
-
+@interface TestFWCalc : NSObject {
+    
+}
+//+ (float)calcBMIByHeight:(float)height weight:(float)weight;
+- (NSString*)helloString;
+- (void) hello;
 @end
