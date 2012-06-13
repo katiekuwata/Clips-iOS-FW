@@ -415,7 +415,11 @@ globle intBool EnvRetract(
   void *vTheFact)
   {
    struct fact *theFact = (struct fact *) vTheFact;
-   struct deftemplate *theTemplate = theFact->whichDeftemplate;
+   // 2012-06-13: kkuwata fix the NULL pointer access
+   //struct deftemplate *theTemplate = theFact->whichDeftemplate;
+   struct deftemplate *theTemplate = NULL;
+   if (theFact != NULL)
+      theTemplate = theFact->whichDeftemplate;
 
    /*===========================================*/
    /* A fact can not be retracted while another */
