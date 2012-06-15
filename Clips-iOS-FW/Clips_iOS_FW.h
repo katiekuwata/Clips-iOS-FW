@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TestFWCalc.h"
+#import "TestFramework.h"
 
 @interface Clips_iOS_FW : NSObject
 

@@ -1,14 +1,14 @@
 //
-//  TestFWCalc.m
+//  TestFramework.m
 //  Clips-iOS-FW
 //
 //  Created by Katie Kuwata on 6/6/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "TestFWCalc.h"
+#import "TestFramework.h"
 
-@implementation TestFWCalc
+@implementation TestFramework
 //+ (float)calcBMIByHeight:(float)height weight:(float)weight
 //{
 //	return weight / (height * height);
@@ -18,7 +18,7 @@
     return @"Hellow World";
 }
 
-- (void) hello
+- (void)hello
 {
     printf("Hello, Objective-C!\n");
 }

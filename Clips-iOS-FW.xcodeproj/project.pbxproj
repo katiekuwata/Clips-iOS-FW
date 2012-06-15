@@ -29,8 +29,8 @@
 		36A05393157FF6E300CA1CB8 /* libClips-iOS-FW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A0537B157FF6E300CA1CB8 /* libClips-iOS-FW.a */; };
 		36A05399157FF6E300CA1CB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36A05397157FF6E300CA1CB8 /* InfoPlist.strings */; };
 		36A0539C157FF6E300CA1CB8 /* Clips_iOS_FWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A0539B157FF6E300CA1CB8 /* Clips_iOS_FWTests.m */; };
-		36A053B2157FF8CB00CA1CB8 /* TestFWCalc.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A053B0157FF8CB00CA1CB8 /* TestFWCalc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36A053B3157FF8CB00CA1CB8 /* TestFWCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A053B1157FF8CB00CA1CB8 /* TestFWCalc.m */; };
+		36A053B2157FF8CB00CA1CB8 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A053B0157FF8CB00CA1CB8 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36A053B3157FF8CB00CA1CB8 /* TestFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A053B1157FF8CB00CA1CB8 /* TestFramework.m */; };
 		36A053B4157FF96700CA1CB8 /* Clips_iOS_FW.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A05383157FF6E300CA1CB8 /* Clips_iOS_FW.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36A05A611580014400CA1CB8 /* agenda.c in Sources */ = {isa = PBXBuildFile; fileRef = 36A0590C1580014400CA1CB8 /* agenda.c */; };
 		36A05A621580014400CA1CB8 /* agenda.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A0590D1580014400CA1CB8 /* agenda.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -399,8 +399,8 @@
 		36A0539A157FF6E300CA1CB8 /* Clips_iOS_FWTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Clips_iOS_FWTests.h; sourceTree = "<group>"; };
 		36A0539B157FF6E300CA1CB8 /* Clips_iOS_FWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Clips_iOS_FWTests.m; sourceTree = "<group>"; };
 		36A053A6157FF73B00CA1CB8 /* info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
-		36A053B0157FF8CB00CA1CB8 /* TestFWCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFWCalc.h; sourceTree = "<group>"; };
-		36A053B1157FF8CB00CA1CB8 /* TestFWCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFWCalc.m; sourceTree = "<group>"; };
+		36A053B0157FF8CB00CA1CB8 /* TestFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
+		36A053B1157FF8CB00CA1CB8 /* TestFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFramework.m; sourceTree = "<group>"; };
 		36A0590C1580014400CA1CB8 /* agenda.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = agenda.c; sourceTree = "<group>"; };
 		36A0590D1580014400CA1CB8 /* agenda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = agenda.h; sourceTree = "<group>"; };
 		36A0590E1580014400CA1CB8 /* analysis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = analysis.c; sourceTree = "<group>"; };
@@ -804,8 +804,8 @@
 				36A05383157FF6E300CA1CB8 /* Clips_iOS_FW.h */,
 				36A05384157FF6E300CA1CB8 /* Clips_iOS_FW.m */,
 				36A05381157FF6E300CA1CB8 /* Supporting Files */,
-				36A053B0157FF8CB00CA1CB8 /* TestFWCalc.h */,
-				36A053B1157FF8CB00CA1CB8 /* TestFWCalc.m */,
+				36A053B0157FF8CB00CA1CB8 /* TestFramework.h */,
+				36A053B1157FF8CB00CA1CB8 /* TestFramework.m */,
 			);
 			path = "Clips-iOS-FW";
 			sourceTree = "<group>";
@@ -1201,7 +1201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36A053B4157FF96700CA1CB8 /* Clips_iOS_FW.h in Headers */,
-				36A053B2157FF8CB00CA1CB8 /* TestFWCalc.h in Headers */,
+				36A053B2157FF8CB00CA1CB8 /* TestFramework.h in Headers */,
 				36A05A791580014400CA1CB8 /* clips.h in Headers */,
 				36A05BB11580014400CA1CB8 /* usrsetup.h in Headers */,
 				36A05A661580014400CA1CB8 /* argacces.h in Headers */,
@@ -1489,7 +1489,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36A05385157FF6E300CA1CB8 /* Clips_iOS_FW.m in Sources */,
-				36A053B3157FF8CB00CA1CB8 /* TestFWCalc.m in Sources */,
+				36A053B3157FF8CB00CA1CB8 /* TestFramework.m in Sources */,
 				36A05A611580014400CA1CB8 /* agenda.c in Sources */,
 				36A05A631580014400CA1CB8 /* analysis.c in Sources */,
 				36A05A651580014400CA1CB8 /* argacces.c in Sources */,
